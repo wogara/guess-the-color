@@ -50,47 +50,7 @@ for (var i = 0; i < modeButtons.length;i++){
 }
 
 
-
-// easy.addEventListener("click",function(){
-// 	easy.classList.add("selected");
-// 	hard.classList.remove("selected");
-// 	numSquares = 3;
-// 	colors = generateRandomColors(numSquares);
-// 	pickedColor = pickColor();
-// 	colorDisplay.textContent = pickedColor;
-// 	for (var i = 0; i < squares.length;i++){
-// 		if (colors[i]){
-// 			squares[i].style.backgroundColor = colors[i];
-// 		}else{
-// 			squares[i].style.display = "none";
-// 		}
-// 	}
-// })
-
-
-// hard.addEventListener("click",function(){
-// 	hard.classList.add("selected");
-// 	easy.classList.remove("selected");
-// 	numSquares = 6;
-// 	colors = generateRandomColors(numSquares);
-// 	pickedColor = pickColor();
-// 	colorDisplay.textContent = pickedColor;
-// 	for (var i = 0; i < squares.length;i++){
-// 		squares[i].style.backgroundColor = colors[i];
-// 		squares[i].style.display = "block";
-// 	}
-// })
-
-
 reset.addEventListener("click",function(){
-	// colors = generateRandomColors(numSquares);
-	// pickedColor = pickColor();
-	// colorDisplay.textContent = pickedColor;
-	// for (var i = 0; i < squares.length;i++){
-	// 	squares[i].style.backgroundColor = colors[i];
-	// }
-	// message.textContent = "";
-	// reset.textContent = "new colors";
 	resetFunc();
 });
 
@@ -105,7 +65,7 @@ for (var i = 0; i < squares.length; i++){
 			reset.textContent = "play again?";
 		}else{
 			message.textContent = "try again";
-			this.style.backgroundColor = "#232323";
+			this.style.backgroundColor = "#122080";
 		}
 	})
 }
