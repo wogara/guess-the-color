@@ -65,7 +65,7 @@ for (var i = 0; i < squares.length; i++){
 			reset.textContent = "play again?";
 		}else{
 			message.textContent = "try again";
-			this.style.backgroundColor = "#122080";
+			this.style.backgroundColor = "#242424";
 		}
 	})
 }
